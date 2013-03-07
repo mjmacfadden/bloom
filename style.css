@@ -1,0 +1,164 @@
+/*  BLOOM  */
+
+@import url(http://fonts.googleapis.com/css?family=Nova+Square);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+
+body{
+	background-color:#121212;
+	margin:0;
+	padding:0;
+	}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Nova Square', cursive;
+	}
+p, ul, ol, li{
+	font-family: 'Lato', sans-serif;
+	font-size:14px;
+	}
+img,
+a{
+	border:none;
+	color:#FFFFFF;
+	text-decoration:none;
+	font-size:14px;
+	}
+a:hover{
+	font-weight:bold;
+	}
+textarea{
+	width:90%;
+	height:35px;
+	resize:none;
+	}
+#container{
+	position:relative;
+	z-index:1;
+	height:100%;
+	}
+#title{
+	width:170px;
+	float:left;
+	color:#FFFFFF;
+	position:absolute;
+	position:fixed;
+	background-color:#121212;
+	height:98%;
+	z-index:1000;
+	padding:0 10px 0 5px;
+	margin:0;
+	border-bottom:14px solid #121212;
+	overflow:hidden;
+	}
+#title h1 a{
+	overflow:visible;
+	font-size:30px;
+	color:#FFFFFF;
+	}
+#title h1 a:hover{
+	color:#F1F1F1;
+	}
+#title img{
+	cursor:pointer;
+	height:28px;
+	margin:30px 10px 0 0;
+	}
+#google_apps:hover{
+	height:30px;
+	margin:-2px 8px 0 0;
+	}
+#all_apps:hover{
+	height:30px;
+	margin-top:-2px;
+	}
+#mike a,
+#all_apps{
+	color:#999999;
+	cursor:pointer;
+	margin-bottom:30px;
+	}
+#google_only{
+	cursor:pointer;
+	border:none;
+	color:#FFFFFF;
+	text-decoration:none;
+	margin-top:50px;
+	}
+#google_only:hover,
+#all_apps:hover{
+	font-weight:bold;
+	}
+#in-front{
+	z-index:5;
+	background-color:#121212;
+	position:absolute;
+	padding-bottom:30px;
+	}
+#bottom-of-title{
+	position:absolute;
+	bottom:0;
+	z-index:1;
+	font-size:12px;
+	color:#999999;
+	}
+#wrapper{
+	min-width:84%;
+	height:98%;
+	margin:0 auto;
+	display:inline-block;
+	border-top:1px solid #121212;
+	border-bottom:1px solid #121212;
+	float:left;
+	z-index:2;
+	padding:0;
+	position:absolute;
+	}
+.levels{
+	min-width:1550px;
+	min-height:40px;
+	height:16.667%;
+	max-height:160px;
+	border-top:1px solid #121212;
+	border-bottom:1px solid #121212;
+	padding:0 0 0 180px;
+	margin:0;
+	overflow:hidden;
+	}
+.levels img{
+	height:100%;
+	max-height:170px;
+	margin:0 20px -15px;
+	padding:0;
+	float:left;
+	}
+.spacer{
+	margin-left:50px;
+	}
+#creating{
+	background-color:#fdf100;
+	}
+#evaluating{
+	background-color:#00aff0;
+	}
+#analyzing{
+	background-color:#32cb32;
+	}
+#applying{
+	background-color:#8e75ac;
+	}	
+#understanding{
+	background-color:#fd3299;
+	}
+#remembering{
+	background-color:#fd9833;
+	}
+.label{
+	width:10%;
+	height:100%;
+	float:left;
+	margin:0 0 0 20px;
+	}
+.label h2{
+	font-size:1em;
+	font-family: 'Lato' , Sans-Serif;
+}
+	
